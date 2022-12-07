@@ -21,7 +21,7 @@
 		<div class="inner">
 			<header>
 				<h1>
-					<a href="../food/Food_Map" id="logo">애 월 읍</a>
+					<a href="../attraction/Attraction_Map" id="logo">애 월 읍</a>
 				</h1>
 			</header>
 		</div>
@@ -57,7 +57,6 @@
 												<p align="center">
 													<a href="adMapa?num=${admin.nno}">${admin.addr }</a>
 												</p>
-
 												<c:choose>
 													<c:when test="${sessionScope.user_admin == 1}">
 														<button type="button" class="btn btn-default"

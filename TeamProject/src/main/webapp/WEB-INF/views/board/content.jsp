@@ -12,6 +12,7 @@
 
 </head>
 <body class="right-sidebar is-preload">
+
    <div id="page-wrapper">
 
       <!-- Header -->
@@ -425,8 +426,6 @@
          $(this).hide();
       }, 1000);
       });
-   
-      
 });
    
 </script>

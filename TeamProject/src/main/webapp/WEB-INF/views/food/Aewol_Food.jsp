@@ -79,7 +79,9 @@
 									</c:if>
 								</div>
 							</div>
+
 							
+
 						</section>
 					</div>
 				</article>
