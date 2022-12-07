@@ -38,7 +38,7 @@
 										</li>
 									</ul>
 								</li>		
-								<li><a href="/food/Food_Map">맛집</a>
+								<li><a href="/food/Food_Map?num1=1">맛집</a>
 								<ul>
 										<li>
 											<a href="#">제주시 &hellip;</a>
