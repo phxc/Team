@@ -9,8 +9,6 @@
 <link rel="stylesheet" href="../assets/css/main.css" />
 <link rel="stylesheet" href="../assets/css/sb-admin-2.min.css" />
 <link rel="stylesheet" href="../assets/css/reply.css" />
-<script src="../assets/js/jquery.min.js"></script>
-<script src="../assets/js/bootstrap.bundle.min.js"></script>
 
 </head>
 <body class="right-sidebar is-preload">
@@ -212,10 +210,11 @@
 				<input type="hidden" id="bno" name="num" value='<c:out value="${board.bno}"/>'> <input type="hidden" name="pageNum" value='<c:out value="${cri.pageNum}"/>'> <input type="hidden" name="count" value='<c:out value="${cri.count}"/>'> <input type="hidden" name="type" value="${cri.type }"> <input type="hidden" name="keyword" value="${cri.keyword }">
 			</form>
 
-
 			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/bootstrap.bundle.min.js"></script>
+			<script src="../assets/js/reply.js"></script>
 
-<script>
+			<script>
 	var form = $("#infoForm");
 	
 	$("#list_btn").on("click", function(e){
@@ -230,7 +229,7 @@
 	});	
 </script>
 
-			<script src="../assets/js/reply.js"></script>
+			
 
 			<script>
 		function replyCheck() {
