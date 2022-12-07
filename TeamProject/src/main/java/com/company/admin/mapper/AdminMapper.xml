@@ -49,7 +49,7 @@
 	<![CDATA[
 	 select * from 
 	 (select rownum as rnum, B.* from fa B
-	  where rownum <= #{count_oracle} order by nno desc)
+	  where rownum <= #{count_oracle} and lnum=#{num1} and fanum = 1 order by nno desc)
 	  where #{adpageStart} <= rnum and lnum = #{num1} and fanum = 1
 	  ]]>
 	 
@@ -61,7 +61,7 @@
 	<![CDATA[
 	 select * from 
 	 (select rownum as rnum, B.* from fa B
-	  where rownum <= #{count_oracle} order by nno desc)
+	  where rownum <= #{count_oracle} and lnum=#{num1} and fanum = 2 order by nno desc)
 	  where #{adpageStart} <= rnum and lnum = #{num1} and fanum = 2
 	  ]]>
 	 

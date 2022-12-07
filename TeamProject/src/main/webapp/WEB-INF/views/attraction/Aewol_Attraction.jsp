@@ -21,7 +21,7 @@
 		<div class="inner">
 			<header>
 				<h1>
-					<a href="../food/Food_Map" id="logo">애 월 읍</a>
+					<a href="../attraction/Attraction_Map" id="logo">애 월 읍</a>
 				</h1>
 			</header>
 		</div>
@@ -52,10 +52,10 @@
 											</div>
 											<div class="col-8">
 												<h4>
-													<a href="adMap?num=${admin.nno}"><strong>${admin.name }</strong></a>
+													<a href="adMapa?num=${admin.nno}"><strong>${admin.name }</strong></a>
 												</h4>
 												<p align="center">
-													<a href="${admin.link }">${admin.addr }</a>
+													<a href="adMapa?num=${admin.nno }">${admin.addr }</a>
 												</p>
 
 												<c:choose>
