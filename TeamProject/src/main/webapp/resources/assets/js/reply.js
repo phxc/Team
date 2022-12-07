@@ -131,7 +131,7 @@ var replyService = (function() {
 	return {
 		add:add,
 		getList : getList,
-		delete : remove,
+		remove : remove,
 		update : update,
 		get : get,
 		displayTime : displayTime

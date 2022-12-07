@@ -78,7 +78,7 @@
 										<a class="arrow next" href="Aewol_Attraction?pageNum=${adpageMaker.adEndPage +1 }">Next</a>
 									</c:if>
 								</div>
-							
+							</div>
 						</section>
 					</div>
 				</article>

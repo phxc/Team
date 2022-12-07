@@ -35,6 +35,7 @@ public class AdminCriteria {
 
 	public int getAdpageStart() {
 //			return ((pageNum - 1) * count);  //mysql, mariadb인경우
+		return ((pageNum - 1) * count)+1;
 	}
 
 	public int getCount_oracle() {
