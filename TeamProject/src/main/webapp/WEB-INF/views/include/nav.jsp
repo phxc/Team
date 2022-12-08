@@ -38,7 +38,7 @@
 										</li>
 									</ul>
 								</li>		
-								<li><a href="/food/Food_Map">맛집</a>
+								<li><a href="/food/Food_Map?num1=1">맛집</a>
 								<ul>
 										<li>
 											<a href="#">제주시 &hellip;</a>
@@ -88,4 +88,19 @@
 							</ul>
 						</nav>
 
-				</div>
+		<c:choose>
+			<c:when test="${sessionScope.user_email == null }">
+				<li><a href="/member/join_loginPage">로그인</a></li>
+			</c:when>
+			<c:otherwise>
+				<li><a href="/member/myPage">${sessionScope.user_name } 님</a>
+					<ul>
+						<li><a href="/member/logout">로그아웃</a></li>
+						<li><a href="/member/myPage">마이페이지</a>
+					</ul></li>
+			</c:otherwise>
+		</c:choose>
+	</ul>
+</nav>
+
+</div>
