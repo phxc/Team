@@ -55,7 +55,7 @@
 													<a href="adMapa?num=${admin.nno}"><strong>${admin.name }</strong></a>
 												</h4>
 												<p align="center">
-													<a href="adMapa?num=${admin.nno }">${admin.addr }</a>
+													<a href="adMapa?num=${admin.nno}">${admin.addr }</a>
 												</p>
 												<c:choose>
 											<c:when test="${sessionScope.user_admin == 1}">

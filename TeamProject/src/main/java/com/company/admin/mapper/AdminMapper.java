@@ -6,9 +6,8 @@ import org.apache.ibatis.annotations.Param;
 
 
 import com.company.admin.command.AdminCriteria;
-import com.company.admin.command.AdminPageVO;
 import com.company.admin.command.AdminVO;
-import com.company.board.command.Criteria;
+
 
 public interface AdminMapper {
 	
